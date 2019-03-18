@@ -1,0 +1,17 @@
+1) The reason an optimal MAX will never have a lower utility than a suboptimal MAX against an optimal MIN is that the optimal search will make assuptions and choose paths based on those, correct against an optimal opponent, assumptions, they select the path to maximize utility. A suboptimal approach won't always make those assumptions, or they will be wrong, leading them to try to take paths that will lead to a lower utility in the end, or at best, the same utility as an Optimal MAX on the same search against an optimal MIN.
+
+2) 
+
+3) 
+	1) Yes, as all domain values of N are in a relationship with at least one domain value of W
+
+	2) No, fever can be removed to become arc consistant, as it is the only word without a letter in the 1st, 3rd, or 5th place.
+
+4) 
+	a) Variables(Square(0,0,0), Square(0,1,0),  .. , Square(8,8,8)) where (x,x,x) indicates the row, column, and box they are in. 
+	Domain(1,2,3,4,5,6,7,8,9) 
+	Constraints(Alldiff(Square(0,x,x)), Alldiff(Square(1,x,x)) .. , Alldiff(Square(x,0,x)), Alldiff(Square(x,1,x)), .. ,Alldiff(Square(x,x,0)), AllDiff(Square(x,x,1)), ..)
+
+	b) I created the connected code, and at one point it was able to solve problems with only 1 initial value quickly, but it failed at around 30, so I altered it, and now it can't solve anything under 35, and I don't know what I altered to change it back. I did not get around to tracking steps
+
+	c)
